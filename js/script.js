@@ -13,3 +13,8 @@ const skateboard = createVehicle("skateboard", 4, "black with anime print");
 
 const myVehicles = [car, bike, skateboard];
 
+for (let vehicle of myVehicles){ //looping through an array
+   // console.log(vehicle);
+    for (let key in vehicle){ //looping through object
+        console.log(key, vehicle[key])};
+};
