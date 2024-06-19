@@ -4,11 +4,12 @@ const createVehicle = function (type, numWheels, color) {
         numWheels:numWheels,
         color: color
     }
+    return vehicle;
 }
 
 const car = createVehicle("car", 4, "blue");
 const bike = createVehicle("bicycle", 2, "red");
 const skateboard = createVehicle("skateboard", 4, "black with anime print");
 
-const myVehicles = ["car", "bike", "skateboard"];
+const myVehicles = [car, bike, skateboard];
 
